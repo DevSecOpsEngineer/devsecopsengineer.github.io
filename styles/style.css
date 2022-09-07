@@ -47,11 +47,11 @@ body {
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
-    color: white;
+    color: red;
     text-shadow: 
-    0 0 10px red,
+    0 0 10px lightcoral,
     0 0 30px red,
-    0 0 80px red;
+    0 0 80px darkred;
     margin-bottom: 25px;
 }
 
@@ -296,4 +296,20 @@ body {
     font-size: 14px;
     line-height: 17px;
     color: red;
+}
+
+/*Scrollbar styles*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 8px;
+    border-left: 1px black solid;
 }
