@@ -311,5 +311,5 @@ body {
 ::-webkit-scrollbar-thumb {
     background-color: red;
     border-radius: 8px;
-    border-left: 1px black solid;
+    border: 3px black solid;
 }
